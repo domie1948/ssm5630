@@ -1,0 +1,6 @@
+const menu = {
+    list() {
+        return [{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"消防单位","menuJump":"列表","tableName":"xiaofangdanwei"}],"menu":"消防单位管理"},{"child":[{"buttons":["查看","修改","删除","审核"],"menu":"消防设备","menuJump":"列表","tableName":"xiaofangshebei"}],"menu":"消防设备管理"},{"child":[{"buttons":["查看","修改","删除","审核"],"menu":"烟雾报警器","menuJump":"列表","tableName":"yanwubaojingqi"}],"menu":"烟雾报警器管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"管理员","tableName":"users"}],"menu":"管理员管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"论坛管理","tableName":"forum"}],"menu":"论坛管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"消防知识","tableName":"news"},{"buttons":["新增","查看","修改","删除"],"menu":"客服管理","tableName":"chat"},{"buttons":["新增","查看","修改","删除"],"menu":"轮播图管理","tableName":"config"}],"menu":"系统管理"}],"frontMenu":[],"roleName":"管理员","tableName":"users"},{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"消防设备","menuJump":"列表","tableName":"xiaofangshebei"}],"menu":"消防设备管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"烟雾报警器","menuJump":"列表","tableName":"yanwubaojingqi"}],"menu":"烟雾报警器管理"}],"frontMenu":[],"roleName":"消防单位","tableName":"xiaofangdanwei"}]
+    }
+}
+export default menu;
